@@ -226,7 +226,7 @@ $(document).ready(function(){
         //console.log("Messaging "+name)
         var id = search(name, memberListV2.Response.results)
         //window.open("https://account.xbox.com/en-US/Messages?gamerTag="+name);
-        window.open("/profile?name="+id);
+        window.open("destinyClanTest/profile?name="+id);
     });
     
     $("#eventCreateButton").click(function(){
