@@ -14,10 +14,10 @@ function openProfile(id){
         var emblemURL = "https://www.bungie.net"+memberJSON.destinyAccounts["0"].characters["0"].backgroundPath;
         //console.log(emblemURL);
         if(platform.onPsn){
-            psnImageTag = '<img class="platformImg" id="psn" src="static/PsnSymbol.png" alt="Xbox">'
+            psnImageTag = '<img class="platformImg" id="psn" src="profileStatic/PsnSymbol.png" alt="Xbox">'
         }
         if(platform.onXbox){
-            xboxImageTag = '<img class="platformImg" id="xbox" src="static/XboxSymbol.png" alt="Xbox">'
+            xboxImageTag = '<img class="platformImg" id="xbox" src="profileStatic/XboxSymbol.png" alt="Xbox">'
         }
         $("#playerName").text(memberJSON.bungieNetUser.displayName)
         $("#platformId").html(psnImageTag+xboxImageTag);
