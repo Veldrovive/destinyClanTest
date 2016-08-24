@@ -1,0 +1,94 @@
+body{
+    background-color: #12161b;
+}
+
+#profileHeader{
+    left: 20%;
+    top: 20px;
+    z-index: 2;
+    position: fixed;
+    width: 474px;
+    height: 96px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -3px 3px 2px #1d1d1d;
+}
+
+#platformId .platformImg{
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#platformId .platformImg:hover{
+    transform: scale(1.2);
+}
+
+#playerName{
+    position: absolute;
+    padding-top: 10px;
+    margin-left: 5%;
+    margin-top: 0px;
+    font-size: 30px;
+    color: oldlace;
+    display: inline-block;
+}
+
+#platformId{
+    position: absolute;
+    min-height: 100%;
+    right: 0px;
+    top: 0px;
+    display: inline-block;
+}
+
+.profileContent{
+    position: absolute;
+    height: 100%;
+    width: 62%;
+    background-color: #212830;
+    margin-right: -31%;
+    right: 50%;
+}
+
+#headerPlaceholder{
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    width: 100%;
+    height: 110px;
+}
+
+#playerSummaryTable{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    border-width:  2px;
+    border-style: solid;
+    border-color: White;
+}
+
+#playerSummaryTable #grimoireScore{
+    position: relative;
+    width: 27%;
+    min-width: 15%;
+}
+
+#playerSummaryTable #platformName{
+    position: relative;
+    width: 27%;
+    min-width: 18%;
+}
+
+#playerSummaryTable #about{
+    position: relative;
+    width: 27%;
+    min-width: 25%;
+}
